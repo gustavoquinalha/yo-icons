@@ -25,10 +25,10 @@
       list: getData,
       find: function(name, callback){
         getData(function(data) {
-          var country = data.filter(function(entry){
+          var icons = data.filter(function(entry){
             return entry.name === name;
           })[0];
-          callback(country);
+          callback(icons);
         });
       }
     };
@@ -39,8 +39,8 @@
     });
   });
   iconApp.controller('IconsDetailCtrl', function ($scope, $routeParams, icons){
-    icons.find($routeParams.countryName, function(country) {
-      $scope.country = country;
+    icons.find($routeParams.countryName, function(icons) {
+      $scope.icons = icons;
     });
   });
   iconApp.filter('encodeURI', function(){
