@@ -31,8 +31,16 @@ ul {
 .full-width {
   width: 100%
 }
+.menu-full {
+  position: fixed;
+  width: 100%;
+}
 .menu {
   height: 70px;
+}
+.menu-rel {
+  height: 70px;
+  position: relative;
 }
 .intro {
   min-height: 300px;
