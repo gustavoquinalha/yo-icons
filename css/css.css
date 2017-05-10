@@ -1,29 +1,29 @@
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');*/
 * {
-    margin: 0;
-    padding: 0;
-    outline: inherit;
+  margin: 0;
+  padding: 0;
+  outline: inherit;
 }
 body,
 html {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    background: #f4f4f4;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #f4f4f4;
 }
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.3);
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 .size {
-    width: 1140px;
-    max-width: 90%;
+  width: 1140px;
+  max-width: 90%;
 }
 .margin {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .full-height {
   height: 100%
@@ -106,13 +106,11 @@ ul {
   opacity: 1
 }
 .conteudo {
-  min-height: 100%;
   margin-top: 30px;
   padding: 10px;
 }
 .bg {
   background: #f4f4f4;
-  min-height: 100%;
 }
 .text-style h3 {
   color: rgba(0, 0, 0, 0.7);
@@ -127,10 +125,6 @@ ul {
 .over {
   overflow: hidden;
 }
-
-
-
-
 .icons {
   margin: 10px;
   padding: 10px;
@@ -139,11 +133,9 @@ ul {
   text-align: center;
   border-radius: 4px
 }
-
 .glyph-icon::before {
   font-size: 40px!important;
 }
-
 .how-icon {
   color: #222222;
   font-size: 10px;
@@ -159,18 +151,18 @@ ul {
   color: rgba(0, 0, 0, 0.7);
 }
 pre {
-    background-color: #222;
-    border-radius: 4px;
-    display: inline-block;
-    color: #fff;
-    font-weight: lighter;
-    font-size: 0.8em;
-    word-break: break-all;
-    width: calc(100% - 60px);
-    padding: 10px;
-    margin: 20px;
-    overflow-x: scroll;
-    text-align: left;
+  background-color: #222;
+  border-radius: 4px;
+  display: inline-block;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 0.8em;
+  word-break: break-all;
+  width: calc(100% - 60px);
+  padding: 10px;
+  margin: 20px;
+  overflow-x: scroll;
+  text-align: left;
 }
 .red {
     color: #ff4455;
@@ -191,12 +183,6 @@ pre {
     margin-top: 0.5em;
     display: block;
 }
-
-
-
-
-
-
 @media only screen and (max-width: 720px) {
   .some {
     display: none

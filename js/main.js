@@ -1,5 +1,5 @@
   var iconApp = angular.module('iconApp', ['ngRoute']);
-  iconApp.config(function($routeProvider) {
+  iconApp.config(function($routeProvider, $locationProvider) {
     $routeProvider.
       when('/', {
         templateUrl: 'icons-list.html',
@@ -12,6 +12,8 @@
       otherwise({
         redirectTo: '/'
       });
+      
+       $locationProvider.html5Mode(true);
   });
   iconApp.factory('icons', function($http){
     function getData(callback){
