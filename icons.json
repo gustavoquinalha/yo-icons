@@ -34,5 +34,41 @@
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "computer, servidor, server, storage"
+  },
+  {
+    "id": 5,
+    "name": "flaticon-005-data-6",
+    "class": "flaticon-005-data-6",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "dados, data"
+  },
+  {
+    "id": 6,
+    "name": "flaticon-006-database-1",
+    "class": "flaticon-006-database-1",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "database, dados"
+  },
+  {
+    "id": 7,
+    "name": "flaticon-007-businessman",
+    "class": "flaticon-007-businessman",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "businessman, business, ideia"
+  },
+  {
+    "id": 8,
+    "name": "flaticon-008-browser",
+    "class": "flaticon-008-browser",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
   }
 ]
