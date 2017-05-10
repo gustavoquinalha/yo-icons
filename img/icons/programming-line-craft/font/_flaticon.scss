@@ -1,0 +1,99 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-adaptive-layout:before { content: "\f100"; }
+.flaticon-api:before { content: "\f101"; }
+.flaticon-binary-code:before { content: "\f102"; }
+.flaticon-bugs-search:before { content: "\f103"; }
+.flaticon-bugs-search-1:before { content: "\f104"; }
+.flaticon-c-document:before { content: "\f105"; }
+.flaticon-cloud-coding:before { content: "\f106"; }
+.flaticon-code-rate:before { content: "\f107"; }
+.flaticon-command-line:before { content: "\f108"; }
+.flaticon-css-code:before { content: "\f109"; }
+.flaticon-css-document:before { content: "\f10a"; }
+.flaticon-document-settings:before { content: "\f10b"; }
+.flaticon-editing-code:before { content: "\f10c"; }
+.flaticon-error-404:before { content: "\f10d"; }
+.flaticon-hacker:before { content: "\f10e"; }
+.flaticon-html:before { content: "\f10f"; }
+.flaticon-html-document:before { content: "\f110"; }
+.flaticon-list:before { content: "\f111"; }
+.flaticon-mobile-programming:before { content: "\f112"; }
+.flaticon-password:before { content: "\f113"; }
+.flaticon-php-code:before { content: "\f114"; }
+.flaticon-php-document:before { content: "\f115"; }
+.flaticon-program-interface:before { content: "\f116"; }
+.flaticon-programming:before { content: "\f117"; }
+.flaticon-programming-1:before { content: "\f118"; }
+.flaticon-table:before { content: "\f119"; }
+.flaticon-ui-design:before { content: "\f11a"; }
+.flaticon-ux-design:before { content: "\f11b"; }
+.flaticon-virus:before { content: "\f11c"; }
+.flaticon-web-interface:before { content: "\f11d"; }
+    
+    $font-Flaticon-adaptive-layout: "\f100";
+    $font-Flaticon-api: "\f101";
+    $font-Flaticon-binary-code: "\f102";
+    $font-Flaticon-bugs-search: "\f103";
+    $font-Flaticon-bugs-search-1: "\f104";
+    $font-Flaticon-c-document: "\f105";
+    $font-Flaticon-cloud-coding: "\f106";
+    $font-Flaticon-code-rate: "\f107";
+    $font-Flaticon-command-line: "\f108";
+    $font-Flaticon-css-code: "\f109";
+    $font-Flaticon-css-document: "\f10a";
+    $font-Flaticon-document-settings: "\f10b";
+    $font-Flaticon-editing-code: "\f10c";
+    $font-Flaticon-error-404: "\f10d";
+    $font-Flaticon-hacker: "\f10e";
+    $font-Flaticon-html: "\f10f";
+    $font-Flaticon-html-document: "\f110";
+    $font-Flaticon-list: "\f111";
+    $font-Flaticon-mobile-programming: "\f112";
+    $font-Flaticon-password: "\f113";
+    $font-Flaticon-php-code: "\f114";
+    $font-Flaticon-php-document: "\f115";
+    $font-Flaticon-program-interface: "\f116";
+    $font-Flaticon-programming: "\f117";
+    $font-Flaticon-programming-1: "\f118";
+    $font-Flaticon-table: "\f119";
+    $font-Flaticon-ui-design: "\f11a";
+    $font-Flaticon-ux-design: "\f11b";
+    $font-Flaticon-virus: "\f11c";
+    $font-Flaticon-web-interface: "\f11d";

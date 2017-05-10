@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:29
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-cake:before { content: "\f100"; }
+.flaticon-cake-1:before { content: "\f101"; }
+.flaticon-cappuccino:before { content: "\f102"; }
+.flaticon-cezve:before { content: "\f103"; }
+.flaticon-coffee:before { content: "\f104"; }
+.flaticon-coffee-1:before { content: "\f105"; }
+.flaticon-coffee-bag:before { content: "\f106"; }
+.flaticon-coffee-cup:before { content: "\f107"; }
+.flaticon-coffee-cup-1:before { content: "\f108"; }
+.flaticon-coffee-cup-2:before { content: "\f109"; }
+.flaticon-coffee-cup-3:before { content: "\f10a"; }
+.flaticon-coffee-cup-4:before { content: "\f10b"; }
+.flaticon-coffee-cup-5:before { content: "\f10c"; }
+.flaticon-coffee-cup-6:before { content: "\f10d"; }
+.flaticon-coffee-cup-7:before { content: "\f10e"; }
+.flaticon-coffee-grain:before { content: "\f10f"; }
+.flaticon-coffee-grinder:before { content: "\f110"; }
+.flaticon-coffee-machine:before { content: "\f111"; }
+.flaticon-coffee-pot:before { content: "\f112"; }
+.flaticon-coffee-shop:before { content: "\f113"; }
+.flaticon-cookies:before { content: "\f114"; }
+.flaticon-cookies-1:before { content: "\f115"; }
+.flaticon-doughnut:before { content: "\f116"; }
+.flaticon-espresso:before { content: "\f117"; }
+.flaticon-frappe:before { content: "\f118"; }
+.flaticon-frappe-1:before { content: "\f119"; }
+.flaticon-frappe-2:before { content: "\f11a"; }
+.flaticon-french-press:before { content: "\f11b"; }
+.flaticon-glass:before { content: "\f11c"; }
+.flaticon-iced-coffee:before { content: "\f11d"; }
+.flaticon-iced-coffee-1:before { content: "\f11e"; }
+.flaticon-jar:before { content: "\f11f"; }
+.flaticon-kettle:before { content: "\f120"; }
+.flaticon-kettle-1:before { content: "\f121"; }
+.flaticon-latte:before { content: "\f122"; }
+.flaticon-milk-bottle:before { content: "\f123"; }
+.flaticon-mocha:before { content: "\f124"; }
+.flaticon-muffin:before { content: "\f125"; }
+.flaticon-mug:before { content: "\f126"; }
+.flaticon-spoons:before { content: "\f127"; }
+.flaticon-sugar:before { content: "\f128"; }
+.flaticon-sugar-1:before { content: "\f129"; }
+.flaticon-sugar-2:before { content: "\f12a"; }
+.flaticon-syrup:before { content: "\f12b"; }
+.flaticon-tea:before { content: "\f12c"; }
+.flaticon-tea-bag:before { content: "\f12d"; }
+.flaticon-tea-bag-1:before { content: "\f12e"; }
+.flaticon-tea-cup:before { content: "\f12f"; }
+.flaticon-tea-cup-1:before { content: "\f130"; }
+.flaticon-toast:before { content: "\f131"; }
+    
+    $font-Flaticon-cake: "\f100";
+    $font-Flaticon-cake-1: "\f101";
+    $font-Flaticon-cappuccino: "\f102";
+    $font-Flaticon-cezve: "\f103";
+    $font-Flaticon-coffee: "\f104";
+    $font-Flaticon-coffee-1: "\f105";
+    $font-Flaticon-coffee-bag: "\f106";
+    $font-Flaticon-coffee-cup: "\f107";
+    $font-Flaticon-coffee-cup-1: "\f108";
+    $font-Flaticon-coffee-cup-2: "\f109";
+    $font-Flaticon-coffee-cup-3: "\f10a";
+    $font-Flaticon-coffee-cup-4: "\f10b";
+    $font-Flaticon-coffee-cup-5: "\f10c";
+    $font-Flaticon-coffee-cup-6: "\f10d";
+    $font-Flaticon-coffee-cup-7: "\f10e";
+    $font-Flaticon-coffee-grain: "\f10f";
+    $font-Flaticon-coffee-grinder: "\f110";
+    $font-Flaticon-coffee-machine: "\f111";
+    $font-Flaticon-coffee-pot: "\f112";
+    $font-Flaticon-coffee-shop: "\f113";
+    $font-Flaticon-cookies: "\f114";
+    $font-Flaticon-cookies-1: "\f115";
+    $font-Flaticon-doughnut: "\f116";
+    $font-Flaticon-espresso: "\f117";
+    $font-Flaticon-frappe: "\f118";
+    $font-Flaticon-frappe-1: "\f119";
+    $font-Flaticon-frappe-2: "\f11a";
+    $font-Flaticon-french-press: "\f11b";
+    $font-Flaticon-glass: "\f11c";
+    $font-Flaticon-iced-coffee: "\f11d";
+    $font-Flaticon-iced-coffee-1: "\f11e";
+    $font-Flaticon-jar: "\f11f";
+    $font-Flaticon-kettle: "\f120";
+    $font-Flaticon-kettle-1: "\f121";
+    $font-Flaticon-latte: "\f122";
+    $font-Flaticon-milk-bottle: "\f123";
+    $font-Flaticon-mocha: "\f124";
+    $font-Flaticon-muffin: "\f125";
+    $font-Flaticon-mug: "\f126";
+    $font-Flaticon-spoons: "\f127";
+    $font-Flaticon-sugar: "\f128";
+    $font-Flaticon-sugar-1: "\f129";
+    $font-Flaticon-sugar-2: "\f12a";
+    $font-Flaticon-syrup: "\f12b";
+    $font-Flaticon-tea: "\f12c";
+    $font-Flaticon-tea-bag: "\f12d";
+    $font-Flaticon-tea-bag-1: "\f12e";
+    $font-Flaticon-tea-cup: "\f12f";
+    $font-Flaticon-tea-cup-1: "\f130";
+    $font-Flaticon-toast: "\f131";

@@ -1,0 +1,119 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 05/05/2017 10:49
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-anvil:before { content: "\f100"; }
+.flaticon-002-shovel:before { content: "\f101"; }
+.flaticon-003-cutlery:before { content: "\f102"; }
+.flaticon-004-jigsaw:before { content: "\f103"; }
+.flaticon-005-needle-1:before { content: "\f104"; }
+.flaticon-006-paint-roller:before { content: "\f105"; }
+.flaticon-007-hands:before { content: "\f106"; }
+.flaticon-008-vise:before { content: "\f107"; }
+.flaticon-009-cutter:before { content: "\f108"; }
+.flaticon-010-saw-2:before { content: "\f109"; }
+.flaticon-011-paint-brush:before { content: "\f10a"; }
+.flaticon-012-trowel:before { content: "\f10b"; }
+.flaticon-013-axe:before { content: "\f10c"; }
+.flaticon-014-chainsaw:before { content: "\f10d"; }
+.flaticon-015-pliers-1:before { content: "\f10e"; }
+.flaticon-016-level:before { content: "\f10f"; }
+.flaticon-017-saw-1:before { content: "\f110"; }
+.flaticon-018-wood-board:before { content: "\f111"; }
+.flaticon-019-ball-of-wool:before { content: "\f112"; }
+.flaticon-020-hammer-2:before { content: "\f113"; }
+.flaticon-021-driller:before { content: "\f114"; }
+.flaticon-022-hammer-1:before { content: "\f115"; }
+.flaticon-023-crayons:before { content: "\f116"; }
+.flaticon-024-wrench:before { content: "\f117"; }
+.flaticon-025-measuring-tape:before { content: "\f118"; }
+.flaticon-026-scraper:before { content: "\f119"; }
+.flaticon-027-button:before { content: "\f11a"; }
+.flaticon-028-rasp:before { content: "\f11b"; }
+.flaticon-029-stapler:before { content: "\f11c"; }
+.flaticon-030-pencil:before { content: "\f11d"; }
+.flaticon-031-sewing-machine:before { content: "\f11e"; }
+.flaticon-032-needle:before { content: "\f11f"; }
+.flaticon-033-thread:before { content: "\f120"; }
+.flaticon-034-pliers:before { content: "\f121"; }
+.flaticon-035-iron:before { content: "\f122"; }
+.flaticon-036-scissors:before { content: "\f123"; }
+.flaticon-037-saw:before { content: "\f124"; }
+.flaticon-038-screwdriver:before { content: "\f125"; }
+.flaticon-039-paint-bucket:before { content: "\f126"; }
+.flaticon-040-hammer:before { content: "\f127"; }
+    
+    $font-Flaticon-001-anvil: "\f100";
+    $font-Flaticon-002-shovel: "\f101";
+    $font-Flaticon-003-cutlery: "\f102";
+    $font-Flaticon-004-jigsaw: "\f103";
+    $font-Flaticon-005-needle-1: "\f104";
+    $font-Flaticon-006-paint-roller: "\f105";
+    $font-Flaticon-007-hands: "\f106";
+    $font-Flaticon-008-vise: "\f107";
+    $font-Flaticon-009-cutter: "\f108";
+    $font-Flaticon-010-saw-2: "\f109";
+    $font-Flaticon-011-paint-brush: "\f10a";
+    $font-Flaticon-012-trowel: "\f10b";
+    $font-Flaticon-013-axe: "\f10c";
+    $font-Flaticon-014-chainsaw: "\f10d";
+    $font-Flaticon-015-pliers-1: "\f10e";
+    $font-Flaticon-016-level: "\f10f";
+    $font-Flaticon-017-saw-1: "\f110";
+    $font-Flaticon-018-wood-board: "\f111";
+    $font-Flaticon-019-ball-of-wool: "\f112";
+    $font-Flaticon-020-hammer-2: "\f113";
+    $font-Flaticon-021-driller: "\f114";
+    $font-Flaticon-022-hammer-1: "\f115";
+    $font-Flaticon-023-crayons: "\f116";
+    $font-Flaticon-024-wrench: "\f117";
+    $font-Flaticon-025-measuring-tape: "\f118";
+    $font-Flaticon-026-scraper: "\f119";
+    $font-Flaticon-027-button: "\f11a";
+    $font-Flaticon-028-rasp: "\f11b";
+    $font-Flaticon-029-stapler: "\f11c";
+    $font-Flaticon-030-pencil: "\f11d";
+    $font-Flaticon-031-sewing-machine: "\f11e";
+    $font-Flaticon-032-needle: "\f11f";
+    $font-Flaticon-033-thread: "\f120";
+    $font-Flaticon-034-pliers: "\f121";
+    $font-Flaticon-035-iron: "\f122";
+    $font-Flaticon-036-scissors: "\f123";
+    $font-Flaticon-037-saw: "\f124";
+    $font-Flaticon-038-screwdriver: "\f125";
+    $font-Flaticon-039-paint-bucket: "\f126";
+    $font-Flaticon-040-hammer: "\f127";

@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/05/2017 09:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-chrysler-building:before { content: "\f100"; }
+.flaticon-002-food-truck:before { content: "\f101"; }
+.flaticon-003-badge:before { content: "\f102"; }
+.flaticon-004-popcorn:before { content: "\f103"; }
+.flaticon-005-electric-guitar:before { content: "\f104"; }
+.flaticon-006-rapper:before { content: "\f105"; }
+.flaticon-007-coffee:before { content: "\f106"; }
+.flaticon-008-gramophone:before { content: "\f107"; }
+.flaticon-009-democratic:before { content: "\f108"; }
+.flaticon-010-director-chair:before { content: "\f109"; }
+.flaticon-011-fifth-avenue:before { content: "\f10a"; }
+.flaticon-012-french-fries:before { content: "\f10b"; }
+.flaticon-013-fire-hydrant:before { content: "\f10c"; }
+.flaticon-014-republican:before { content: "\f10d"; }
+.flaticon-015-george-washington:before { content: "\f10e"; }
+.flaticon-016-cab:before { content: "\f10f"; }
+.flaticon-017-route-66:before { content: "\f110"; }
+.flaticon-018-school-bus:before { content: "\f111"; }
+.flaticon-019-casino:before { content: "\f112"; }
+.flaticon-020-helmet:before { content: "\f113"; }
+.flaticon-021-walk-of-fame:before { content: "\f114"; }
+.flaticon-022-golden-state:before { content: "\f115"; }
+.flaticon-023-empire-state:before { content: "\f116"; }
+.flaticon-024-cola:before { content: "\f117"; }
+.flaticon-025-hot-dog:before { content: "\f118"; }
+.flaticon-026-grand-canyon:before { content: "\f119"; }
+.flaticon-027-indian-1:before { content: "\f11a"; }
+.flaticon-028-computer:before { content: "\f11b"; }
+.flaticon-029-spaceship:before { content: "\f11c"; }
+.flaticon-030-deer:before { content: "\f11d"; }
+.flaticon-031-bison:before { content: "\f11e"; }
+.flaticon-032-indian:before { content: "\f11f"; }
+.flaticon-033-hat:before { content: "\f120"; }
+.flaticon-034-corndog:before { content: "\f121"; }
+.flaticon-035-movie:before { content: "\f122"; }
+.flaticon-036-smartphone:before { content: "\f123"; }
+.flaticon-037-lincoln:before { content: "\f124"; }
+.flaticon-038-donut:before { content: "\f125"; }
+.flaticon-039-sheriff:before { content: "\f126"; }
+.flaticon-040-statue-of-liberty:before { content: "\f127"; }
+.flaticon-041-dollar:before { content: "\f128"; }
+.flaticon-042-cowboy:before { content: "\f129"; }
+.flaticon-043-united-states:before { content: "\f12a"; }
+.flaticon-044-basketball:before { content: "\f12b"; }
+.flaticon-045-baseball:before { content: "\f12c"; }
+.flaticon-046-eagle:before { content: "\f12d"; }
+.flaticon-047-capitol:before { content: "\f12e"; }
+.flaticon-048-white-house:before { content: "\f12f"; }
+.flaticon-049-burger:before { content: "\f130"; }
+.flaticon-050-rugby:before { content: "\f131"; }
+    
+    $font-Flaticon-001-chrysler-building: "\f100";
+    $font-Flaticon-002-food-truck: "\f101";
+    $font-Flaticon-003-badge: "\f102";
+    $font-Flaticon-004-popcorn: "\f103";
+    $font-Flaticon-005-electric-guitar: "\f104";
+    $font-Flaticon-006-rapper: "\f105";
+    $font-Flaticon-007-coffee: "\f106";
+    $font-Flaticon-008-gramophone: "\f107";
+    $font-Flaticon-009-democratic: "\f108";
+    $font-Flaticon-010-director-chair: "\f109";
+    $font-Flaticon-011-fifth-avenue: "\f10a";
+    $font-Flaticon-012-french-fries: "\f10b";
+    $font-Flaticon-013-fire-hydrant: "\f10c";
+    $font-Flaticon-014-republican: "\f10d";
+    $font-Flaticon-015-george-washington: "\f10e";
+    $font-Flaticon-016-cab: "\f10f";
+    $font-Flaticon-017-route-66: "\f110";
+    $font-Flaticon-018-school-bus: "\f111";
+    $font-Flaticon-019-casino: "\f112";
+    $font-Flaticon-020-helmet: "\f113";
+    $font-Flaticon-021-walk-of-fame: "\f114";
+    $font-Flaticon-022-golden-state: "\f115";
+    $font-Flaticon-023-empire-state: "\f116";
+    $font-Flaticon-024-cola: "\f117";
+    $font-Flaticon-025-hot-dog: "\f118";
+    $font-Flaticon-026-grand-canyon: "\f119";
+    $font-Flaticon-027-indian-1: "\f11a";
+    $font-Flaticon-028-computer: "\f11b";
+    $font-Flaticon-029-spaceship: "\f11c";
+    $font-Flaticon-030-deer: "\f11d";
+    $font-Flaticon-031-bison: "\f11e";
+    $font-Flaticon-032-indian: "\f11f";
+    $font-Flaticon-033-hat: "\f120";
+    $font-Flaticon-034-corndog: "\f121";
+    $font-Flaticon-035-movie: "\f122";
+    $font-Flaticon-036-smartphone: "\f123";
+    $font-Flaticon-037-lincoln: "\f124";
+    $font-Flaticon-038-donut: "\f125";
+    $font-Flaticon-039-sheriff: "\f126";
+    $font-Flaticon-040-statue-of-liberty: "\f127";
+    $font-Flaticon-041-dollar: "\f128";
+    $font-Flaticon-042-cowboy: "\f129";
+    $font-Flaticon-043-united-states: "\f12a";
+    $font-Flaticon-044-basketball: "\f12b";
+    $font-Flaticon-045-baseball: "\f12c";
+    $font-Flaticon-046-eagle: "\f12d";
+    $font-Flaticon-047-capitol: "\f12e";
+    $font-Flaticon-048-white-house: "\f12f";
+    $font-Flaticon-049-burger: "\f130";
+    $font-Flaticon-050-rugby: "\f131";

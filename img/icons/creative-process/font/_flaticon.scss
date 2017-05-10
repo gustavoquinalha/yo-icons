@@ -1,0 +1,79 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-3d-creative-process:before { content: "\f100"; }
+.flaticon-application-development:before { content: "\f101"; }
+.flaticon-brainstorm:before { content: "\f102"; }
+.flaticon-branding:before { content: "\f103"; }
+.flaticon-color-choice:before { content: "\f104"; }
+.flaticon-development-icons:before { content: "\f105"; }
+.flaticon-engineering:before { content: "\f106"; }
+.flaticon-font-designe:before { content: "\f107"; }
+.flaticon-graphic-designer-tools:before { content: "\f108"; }
+.flaticon-have-an-idea:before { content: "\f109"; }
+.flaticon-infographics:before { content: "\f10a"; }
+.flaticon-page-proofs:before { content: "\f10b"; }
+.flaticon-painting:before { content: "\f10c"; }
+.flaticon-photo-camera:before { content: "\f10d"; }
+.flaticon-pictoric:before { content: "\f10e"; }
+.flaticon-presentation:before { content: "\f10f"; }
+.flaticon-retouch:before { content: "\f110"; }
+.flaticon-scketching:before { content: "\f111"; }
+.flaticon-ux:before { content: "\f112"; }
+.flaticon-vector-design:before { content: "\f113"; }
+    
+    $font-Flaticon-3d-creative-process: "\f100";
+    $font-Flaticon-application-development: "\f101";
+    $font-Flaticon-brainstorm: "\f102";
+    $font-Flaticon-branding: "\f103";
+    $font-Flaticon-color-choice: "\f104";
+    $font-Flaticon-development-icons: "\f105";
+    $font-Flaticon-engineering: "\f106";
+    $font-Flaticon-font-designe: "\f107";
+    $font-Flaticon-graphic-designer-tools: "\f108";
+    $font-Flaticon-have-an-idea: "\f109";
+    $font-Flaticon-infographics: "\f10a";
+    $font-Flaticon-page-proofs: "\f10b";
+    $font-Flaticon-painting: "\f10c";
+    $font-Flaticon-photo-camera: "\f10d";
+    $font-Flaticon-pictoric: "\f10e";
+    $font-Flaticon-presentation: "\f10f";
+    $font-Flaticon-retouch: "\f110";
+    $font-Flaticon-scketching: "\f111";
+    $font-Flaticon-ux: "\f112";
+    $font-Flaticon-vector-design: "\f113";

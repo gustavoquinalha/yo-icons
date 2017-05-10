@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/04/2017 08:36
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-open-book:before { content: "\f100"; }
+.flaticon-002-encyclopedia:before { content: "\f101"; }
+.flaticon-003-newspaper:before { content: "\f102"; }
+.flaticon-004-chest:before { content: "\f103"; }
+.flaticon-005-notes:before { content: "\f104"; }
+.flaticon-006-diploma:before { content: "\f105"; }
+.flaticon-007-trophy:before { content: "\f106"; }
+.flaticon-008-map:before { content: "\f107"; }
+.flaticon-009-geography:before { content: "\f108"; }
+.flaticon-010-solar-system:before { content: "\f109"; }
+.flaticon-011-geology:before { content: "\f10a"; }
+.flaticon-012-briefcase:before { content: "\f10b"; }
+.flaticon-013-piano:before { content: "\f10c"; }
+.flaticon-014-curtain:before { content: "\f10d"; }
+.flaticon-015-museum:before { content: "\f10e"; }
+.flaticon-016-school:before { content: "\f10f"; }
+.flaticon-017-education:before { content: "\f110"; }
+.flaticon-018-computer:before { content: "\f111"; }
+.flaticon-019-law:before { content: "\f112"; }
+.flaticon-020-flower:before { content: "\f113"; }
+.flaticon-021-wise:before { content: "\f114"; }
+.flaticon-022-graduation:before { content: "\f115"; }
+.flaticon-023-browser:before { content: "\f116"; }
+.flaticon-024-abacus:before { content: "\f117"; }
+.flaticon-025-analytics:before { content: "\f118"; }
+.flaticon-026-patch:before { content: "\f119"; }
+.flaticon-027-cube:before { content: "\f11a"; }
+.flaticon-028-notebook:before { content: "\f11b"; }
+.flaticon-029-telescope:before { content: "\f11c"; }
+.flaticon-030-architecture:before { content: "\f11d"; }
+.flaticon-031-engineering-2:before { content: "\f11e"; }
+.flaticon-032-engineering-1:before { content: "\f11f"; }
+.flaticon-033-engineering:before { content: "\f120"; }
+.flaticon-034-newton-cradle:before { content: "\f121"; }
+.flaticon-035-chemistry:before { content: "\f122"; }
+.flaticon-036-politics:before { content: "\f123"; }
+.flaticon-037-economy:before { content: "\f124"; }
+.flaticon-038-portrait:before { content: "\f125"; }
+.flaticon-039-anthropology:before { content: "\f126"; }
+.flaticon-040-philosophy:before { content: "\f127"; }
+.flaticon-041-column:before { content: "\f128"; }
+.flaticon-042-language:before { content: "\f129"; }
+.flaticon-043-idea:before { content: "\f12a"; }
+.flaticon-044-backpack:before { content: "\f12b"; }
+.flaticon-045-memory:before { content: "\f12c"; }
+.flaticon-046-library:before { content: "\f12d"; }
+.flaticon-047-knowledge-1:before { content: "\f12e"; }
+.flaticon-048-knowledge:before { content: "\f12f"; }
+.flaticon-049-chat:before { content: "\f130"; }
+.flaticon-050-observation:before { content: "\f131"; }

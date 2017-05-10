@@ -1,0 +1,81 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:34
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-act:before { content: "\f100"; }
+.flaticon-agreement:before { content: "\f101"; }
+.flaticon-bars:before { content: "\f102"; }
+.flaticon-baton:before { content: "\f103"; }
+.flaticon-books:before { content: "\f104"; }
+.flaticon-bullet:before { content: "\f105"; }
+.flaticon-courthouse:before { content: "\f106"; }
+.flaticon-criminal:before { content: "\f107"; }
+.flaticon-detective:before { content: "\f108"; }
+.flaticon-evidence:before { content: "\f109"; }
+.flaticon-fingerprint:before { content: "\f10a"; }
+.flaticon-folder:before { content: "\f10b"; }
+.flaticon-footprint:before { content: "\f10c"; }
+.flaticon-gavel:before { content: "\f10d"; }
+.flaticon-glasses:before { content: "\f10e"; }
+.flaticon-handcuffs:before { content: "\f10f"; }
+.flaticon-hourglass:before { content: "\f110"; }
+.flaticon-judge:before { content: "\f111"; }
+.flaticon-judge-1:before { content: "\f112"; }
+.flaticon-judge-2:before { content: "\f113"; }
+.flaticon-jury:before { content: "\f114"; }
+.flaticon-law-book:before { content: "\f115"; }
+.flaticon-lawyer:before { content: "\f116"; }
+.flaticon-lawyer-1:before { content: "\f117"; }
+.flaticon-letter:before { content: "\f118"; }
+.flaticon-libra:before { content: "\f119"; }
+.flaticon-money-bag:before { content: "\f11a"; }
+.flaticon-newspaper:before { content: "\f11b"; }
+.flaticon-oath:before { content: "\f11c"; }
+.flaticon-padlock:before { content: "\f11d"; }
+.flaticon-police:before { content: "\f11e"; }
+.flaticon-police-badge:before { content: "\f11f"; }
+.flaticon-police-car:before { content: "\f120"; }
+.flaticon-policeman:before { content: "\f121"; }
+.flaticon-portfolio:before { content: "\f122"; }
+.flaticon-prison:before { content: "\f123"; }
+.flaticon-prison-1:before { content: "\f124"; }
+.flaticon-prison-bus:before { content: "\f125"; }
+.flaticon-prisoner:before { content: "\f126"; }
+.flaticon-safebox:before { content: "\f127"; }
+.flaticon-scroll:before { content: "\f128"; }
+.flaticon-search:before { content: "\f129"; }
+.flaticon-sheriff:before { content: "\f12a"; }
+.flaticon-siren:before { content: "\f12b"; }
+.flaticon-statement:before { content: "\f12c"; }
+.flaticon-student:before { content: "\f12d"; }
+.flaticon-traffic-cone:before { content: "\f12e"; }
+.flaticon-typewriter:before { content: "\f12f"; }
+.flaticon-witness:before { content: "\f130"; }
+.flaticon-writing-tool:before { content: "\f131"; }

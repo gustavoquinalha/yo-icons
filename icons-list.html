@@ -1,0 +1,28 @@
+<!-- <ul>
+  <li ng-repeat="country in icons">
+    <a href="#/{{country.name | encodeURI}}">{{country.name}}</a>
+  </li>
+</ul> -->
+
+
+
+
+<div class="container-icons container wrap center-center">
+
+  <div class="icons basis2" ng-repeat="icon in icons | filter:search:strict">
+    <div class="i-icon">
+      <i class="glyph-icon {{icon.class}}"></i>
+    </div>
+    <div class="how-icon">
+      <div class="color-primary"><strong>.{{icon.name}}</strong></div>
+    </div>
+    <!-- <div class="author-icon">
+      <div class="author-name">Author: <a data-file="001-box" href="{{icon.authorurl}}">Freepik</a> </div>
+    </div> -->
+    <div class="author-icon">
+    <a href="#/{{icon.id | encodeURI}}">+ info</a>
+    </div>
+  </div>
+
+
+</div>

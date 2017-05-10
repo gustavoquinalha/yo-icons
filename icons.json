@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "flaticon-001-box",
+    "class": "flaticon-001-box",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik"
+  },
+  {
+    "id": 2,
+    "name": "flaticon-002-storage",
+    "class": "flaticon-002-storage",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik"
+  },
+  {
+    "id": 3,
+    "name": "flaticon-003-warehouse",
+    "class": "flaticon-003-warehouse",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik"
+  },
+  {
+    "id": 4,
+    "name": "flaticon-004-computer",
+    "class": "flaticon-004-computer",
+    "path": "img/icons/big-data-and-web-analytics",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik"
+  }
+]

@@ -1,0 +1,111 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:44
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-adaptation:before { content: "\f100"; }
+.flaticon-announcement:before { content: "\f101"; }
+.flaticon-banking:before { content: "\f102"; }
+.flaticon-brainstorm:before { content: "\f103"; }
+.flaticon-brainstorm-1:before { content: "\f104"; }
+.flaticon-browser:before { content: "\f105"; }
+.flaticon-charity:before { content: "\f106"; }
+.flaticon-coffee-break:before { content: "\f107"; }
+.flaticon-contract:before { content: "\f108"; }
+.flaticon-creativity:before { content: "\f109"; }
+.flaticon-crowdfunding:before { content: "\f10a"; }
+.flaticon-discussion:before { content: "\f10b"; }
+.flaticon-dna:before { content: "\f10c"; }
+.flaticon-fight:before { content: "\f10d"; }
+.flaticon-focus:before { content: "\f10e"; }
+.flaticon-franchise:before { content: "\f10f"; }
+.flaticon-graphic-tool:before { content: "\f110"; }
+.flaticon-growth:before { content: "\f111"; }
+.flaticon-idea:before { content: "\f112"; }
+.flaticon-networking:before { content: "\f113"; }
+.flaticon-origami:before { content: "\f114"; }
+.flaticon-packaging:before { content: "\f115"; }
+.flaticon-padlock:before { content: "\f116"; }
+.flaticon-passion:before { content: "\f117"; }
+.flaticon-pie-chart:before { content: "\f118"; }
+.flaticon-placeholder:before { content: "\f119"; }
+.flaticon-presentation:before { content: "\f11a"; }
+.flaticon-profits:before { content: "\f11b"; }
+.flaticon-profits-1:before { content: "\f11c"; }
+.flaticon-research:before { content: "\f11d"; }
+.flaticon-startup:before { content: "\f11e"; }
+.flaticon-success:before { content: "\f11f"; }
+.flaticon-success-1:before { content: "\f120"; }
+.flaticon-tap:before { content: "\f121"; }
+.flaticon-teamwork:before { content: "\f122"; }
+.flaticon-teamwork-1:before { content: "\f123"; }
+    
+    $font-Flaticon-adaptation: "\f100";
+    $font-Flaticon-announcement: "\f101";
+    $font-Flaticon-banking: "\f102";
+    $font-Flaticon-brainstorm: "\f103";
+    $font-Flaticon-brainstorm-1: "\f104";
+    $font-Flaticon-browser: "\f105";
+    $font-Flaticon-charity: "\f106";
+    $font-Flaticon-coffee-break: "\f107";
+    $font-Flaticon-contract: "\f108";
+    $font-Flaticon-creativity: "\f109";
+    $font-Flaticon-crowdfunding: "\f10a";
+    $font-Flaticon-discussion: "\f10b";
+    $font-Flaticon-dna: "\f10c";
+    $font-Flaticon-fight: "\f10d";
+    $font-Flaticon-focus: "\f10e";
+    $font-Flaticon-franchise: "\f10f";
+    $font-Flaticon-graphic-tool: "\f110";
+    $font-Flaticon-growth: "\f111";
+    $font-Flaticon-idea: "\f112";
+    $font-Flaticon-networking: "\f113";
+    $font-Flaticon-origami: "\f114";
+    $font-Flaticon-packaging: "\f115";
+    $font-Flaticon-padlock: "\f116";
+    $font-Flaticon-passion: "\f117";
+    $font-Flaticon-pie-chart: "\f118";
+    $font-Flaticon-placeholder: "\f119";
+    $font-Flaticon-presentation: "\f11a";
+    $font-Flaticon-profits: "\f11b";
+    $font-Flaticon-profits-1: "\f11c";
+    $font-Flaticon-research: "\f11d";
+    $font-Flaticon-startup: "\f11e";
+    $font-Flaticon-success: "\f11f";
+    $font-Flaticon-success-1: "\f120";
+    $font-Flaticon-tap: "\f121";
+    $font-Flaticon-teamwork: "\f122";
+    $font-Flaticon-teamwork-1: "\f123";

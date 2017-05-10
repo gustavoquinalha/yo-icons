@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/05/2017 09:14
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-barrel:before { content: "\f100"; }
+.flaticon-002-oil-valve:before { content: "\f101"; }
+.flaticon-003-pumpjack:before { content: "\f102"; }
+.flaticon-004-container:before { content: "\f103"; }
+.flaticon-005-cargo-truck:before { content: "\f104"; }
+.flaticon-006-gauge:before { content: "\f105"; }
+.flaticon-007-tank-3:before { content: "\f106"; }
+.flaticon-008-nuclear-plant:before { content: "\f107"; }
+.flaticon-009-engineer-1:before { content: "\f108"; }
+.flaticon-010-tank-2:before { content: "\f109"; }
+.flaticon-011-engineer:before { content: "\f10a"; }
+.flaticon-012-tank-1:before { content: "\f10b"; }
+.flaticon-013-tank:before { content: "\f10c"; }
+.flaticon-014-cooler:before { content: "\f10d"; }
+.flaticon-015-solar-panel:before { content: "\f10e"; }
+.flaticon-016-controls:before { content: "\f10f"; }
+.flaticon-017-microchip:before { content: "\f110"; }
+.flaticon-018-power-line:before { content: "\f111"; }
+.flaticon-019-oil-platform:before { content: "\f112"; }
+.flaticon-020-windmill:before { content: "\f113"; }
+.flaticon-021-stock-1:before { content: "\f114"; }
+.flaticon-022-welder:before { content: "\f115"; }
+.flaticon-023-cogwheel:before { content: "\f116"; }
+.flaticon-024-industrial-robot-5:before { content: "\f117"; }
+.flaticon-025-valve:before { content: "\f118"; }
+.flaticon-026-driller:before { content: "\f119"; }
+.flaticon-027-crane-2:before { content: "\f11a"; }
+.flaticon-028-voltmeter:before { content: "\f11b"; }
+.flaticon-029-crane-1:before { content: "\f11c"; }
+.flaticon-030-lift:before { content: "\f11d"; }
+.flaticon-031-gear:before { content: "\f11e"; }
+.flaticon-032-industrial-robot-4:before { content: "\f11f"; }
+.flaticon-033-switch:before { content: "\f120"; }
+.flaticon-034-drill:before { content: "\f121"; }
+.flaticon-035-stock:before { content: "\f122"; }
+.flaticon-036-industrial-robot-3:before { content: "\f123"; }
+.flaticon-037-industrial-robot-2:before { content: "\f124"; }
+.flaticon-038-wrench:before { content: "\f125"; }
+.flaticon-039-industrial-robot-1:before { content: "\f126"; }
+.flaticon-040-industrial-robot:before { content: "\f127"; }
+.flaticon-041-lever:before { content: "\f128"; }
+.flaticon-042-loader:before { content: "\f129"; }
+.flaticon-043-pushcart:before { content: "\f12a"; }
+.flaticon-044-conveyor:before { content: "\f12b"; }
+.flaticon-045-warehouse:before { content: "\f12c"; }
+.flaticon-046-crane:before { content: "\f12d"; }
+.flaticon-047-factory-3:before { content: "\f12e"; }
+.flaticon-048-factory-2:before { content: "\f12f"; }
+.flaticon-049-factory-1:before { content: "\f130"; }
+.flaticon-050-factory:before { content: "\f131"; }
+    
+    $font-Flaticon-001-barrel: "\f100";
+    $font-Flaticon-002-oil-valve: "\f101";
+    $font-Flaticon-003-pumpjack: "\f102";
+    $font-Flaticon-004-container: "\f103";
+    $font-Flaticon-005-cargo-truck: "\f104";
+    $font-Flaticon-006-gauge: "\f105";
+    $font-Flaticon-007-tank-3: "\f106";
+    $font-Flaticon-008-nuclear-plant: "\f107";
+    $font-Flaticon-009-engineer-1: "\f108";
+    $font-Flaticon-010-tank-2: "\f109";
+    $font-Flaticon-011-engineer: "\f10a";
+    $font-Flaticon-012-tank-1: "\f10b";
+    $font-Flaticon-013-tank: "\f10c";
+    $font-Flaticon-014-cooler: "\f10d";
+    $font-Flaticon-015-solar-panel: "\f10e";
+    $font-Flaticon-016-controls: "\f10f";
+    $font-Flaticon-017-microchip: "\f110";
+    $font-Flaticon-018-power-line: "\f111";
+    $font-Flaticon-019-oil-platform: "\f112";
+    $font-Flaticon-020-windmill: "\f113";
+    $font-Flaticon-021-stock-1: "\f114";
+    $font-Flaticon-022-welder: "\f115";
+    $font-Flaticon-023-cogwheel: "\f116";
+    $font-Flaticon-024-industrial-robot-5: "\f117";
+    $font-Flaticon-025-valve: "\f118";
+    $font-Flaticon-026-driller: "\f119";
+    $font-Flaticon-027-crane-2: "\f11a";
+    $font-Flaticon-028-voltmeter: "\f11b";
+    $font-Flaticon-029-crane-1: "\f11c";
+    $font-Flaticon-030-lift: "\f11d";
+    $font-Flaticon-031-gear: "\f11e";
+    $font-Flaticon-032-industrial-robot-4: "\f11f";
+    $font-Flaticon-033-switch: "\f120";
+    $font-Flaticon-034-drill: "\f121";
+    $font-Flaticon-035-stock: "\f122";
+    $font-Flaticon-036-industrial-robot-3: "\f123";
+    $font-Flaticon-037-industrial-robot-2: "\f124";
+    $font-Flaticon-038-wrench: "\f125";
+    $font-Flaticon-039-industrial-robot-1: "\f126";
+    $font-Flaticon-040-industrial-robot: "\f127";
+    $font-Flaticon-041-lever: "\f128";
+    $font-Flaticon-042-loader: "\f129";
+    $font-Flaticon-043-pushcart: "\f12a";
+    $font-Flaticon-044-conveyor: "\f12b";
+    $font-Flaticon-045-warehouse: "\f12c";
+    $font-Flaticon-046-crane: "\f12d";
+    $font-Flaticon-047-factory-3: "\f12e";
+    $font-Flaticon-048-factory-2: "\f12f";
+    $font-Flaticon-049-factory-1: "\f130";
+    $font-Flaticon-050-factory: "\f131";

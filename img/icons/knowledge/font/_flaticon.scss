@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 28/04/2017 08:36
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-open-book:before { content: "\f100"; }
+.flaticon-002-encyclopedia:before { content: "\f101"; }
+.flaticon-003-newspaper:before { content: "\f102"; }
+.flaticon-004-chest:before { content: "\f103"; }
+.flaticon-005-notes:before { content: "\f104"; }
+.flaticon-006-diploma:before { content: "\f105"; }
+.flaticon-007-trophy:before { content: "\f106"; }
+.flaticon-008-map:before { content: "\f107"; }
+.flaticon-009-geography:before { content: "\f108"; }
+.flaticon-010-solar-system:before { content: "\f109"; }
+.flaticon-011-geology:before { content: "\f10a"; }
+.flaticon-012-briefcase:before { content: "\f10b"; }
+.flaticon-013-piano:before { content: "\f10c"; }
+.flaticon-014-curtain:before { content: "\f10d"; }
+.flaticon-015-museum:before { content: "\f10e"; }
+.flaticon-016-school:before { content: "\f10f"; }
+.flaticon-017-education:before { content: "\f110"; }
+.flaticon-018-computer:before { content: "\f111"; }
+.flaticon-019-law:before { content: "\f112"; }
+.flaticon-020-flower:before { content: "\f113"; }
+.flaticon-021-wise:before { content: "\f114"; }
+.flaticon-022-graduation:before { content: "\f115"; }
+.flaticon-023-browser:before { content: "\f116"; }
+.flaticon-024-abacus:before { content: "\f117"; }
+.flaticon-025-analytics:before { content: "\f118"; }
+.flaticon-026-patch:before { content: "\f119"; }
+.flaticon-027-cube:before { content: "\f11a"; }
+.flaticon-028-notebook:before { content: "\f11b"; }
+.flaticon-029-telescope:before { content: "\f11c"; }
+.flaticon-030-architecture:before { content: "\f11d"; }
+.flaticon-031-engineering-2:before { content: "\f11e"; }
+.flaticon-032-engineering-1:before { content: "\f11f"; }
+.flaticon-033-engineering:before { content: "\f120"; }
+.flaticon-034-newton-cradle:before { content: "\f121"; }
+.flaticon-035-chemistry:before { content: "\f122"; }
+.flaticon-036-politics:before { content: "\f123"; }
+.flaticon-037-economy:before { content: "\f124"; }
+.flaticon-038-portrait:before { content: "\f125"; }
+.flaticon-039-anthropology:before { content: "\f126"; }
+.flaticon-040-philosophy:before { content: "\f127"; }
+.flaticon-041-column:before { content: "\f128"; }
+.flaticon-042-language:before { content: "\f129"; }
+.flaticon-043-idea:before { content: "\f12a"; }
+.flaticon-044-backpack:before { content: "\f12b"; }
+.flaticon-045-memory:before { content: "\f12c"; }
+.flaticon-046-library:before { content: "\f12d"; }
+.flaticon-047-knowledge-1:before { content: "\f12e"; }
+.flaticon-048-knowledge:before { content: "\f12f"; }
+.flaticon-049-chat:before { content: "\f130"; }
+.flaticon-050-observation:before { content: "\f131"; }
+    
+    $font-Flaticon-001-open-book: "\f100";
+    $font-Flaticon-002-encyclopedia: "\f101";
+    $font-Flaticon-003-newspaper: "\f102";
+    $font-Flaticon-004-chest: "\f103";
+    $font-Flaticon-005-notes: "\f104";
+    $font-Flaticon-006-diploma: "\f105";
+    $font-Flaticon-007-trophy: "\f106";
+    $font-Flaticon-008-map: "\f107";
+    $font-Flaticon-009-geography: "\f108";
+    $font-Flaticon-010-solar-system: "\f109";
+    $font-Flaticon-011-geology: "\f10a";
+    $font-Flaticon-012-briefcase: "\f10b";
+    $font-Flaticon-013-piano: "\f10c";
+    $font-Flaticon-014-curtain: "\f10d";
+    $font-Flaticon-015-museum: "\f10e";
+    $font-Flaticon-016-school: "\f10f";
+    $font-Flaticon-017-education: "\f110";
+    $font-Flaticon-018-computer: "\f111";
+    $font-Flaticon-019-law: "\f112";
+    $font-Flaticon-020-flower: "\f113";
+    $font-Flaticon-021-wise: "\f114";
+    $font-Flaticon-022-graduation: "\f115";
+    $font-Flaticon-023-browser: "\f116";
+    $font-Flaticon-024-abacus: "\f117";
+    $font-Flaticon-025-analytics: "\f118";
+    $font-Flaticon-026-patch: "\f119";
+    $font-Flaticon-027-cube: "\f11a";
+    $font-Flaticon-028-notebook: "\f11b";
+    $font-Flaticon-029-telescope: "\f11c";
+    $font-Flaticon-030-architecture: "\f11d";
+    $font-Flaticon-031-engineering-2: "\f11e";
+    $font-Flaticon-032-engineering-1: "\f11f";
+    $font-Flaticon-033-engineering: "\f120";
+    $font-Flaticon-034-newton-cradle: "\f121";
+    $font-Flaticon-035-chemistry: "\f122";
+    $font-Flaticon-036-politics: "\f123";
+    $font-Flaticon-037-economy: "\f124";
+    $font-Flaticon-038-portrait: "\f125";
+    $font-Flaticon-039-anthropology: "\f126";
+    $font-Flaticon-040-philosophy: "\f127";
+    $font-Flaticon-041-column: "\f128";
+    $font-Flaticon-042-language: "\f129";
+    $font-Flaticon-043-idea: "\f12a";
+    $font-Flaticon-044-backpack: "\f12b";
+    $font-Flaticon-045-memory: "\f12c";
+    $font-Flaticon-046-library: "\f12d";
+    $font-Flaticon-047-knowledge-1: "\f12e";
+    $font-Flaticon-048-knowledge: "\f12f";
+    $font-Flaticon-049-chat: "\f130";
+    $font-Flaticon-050-observation: "\f131";

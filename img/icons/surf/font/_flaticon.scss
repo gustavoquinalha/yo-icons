@@ -1,0 +1,99 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 04/05/2017 10:50
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-lifebuoy:before { content: "\f100"; }
+.flaticon-002-seagull:before { content: "\f101"; }
+.flaticon-003-flip-flops:before { content: "\f102"; }
+.flaticon-004-sunglasses:before { content: "\f103"; }
+.flaticon-005-cloudy:before { content: "\f104"; }
+.flaticon-006-sunny:before { content: "\f105"; }
+.flaticon-007-drowning-1:before { content: "\f106"; }
+.flaticon-008-cocktail:before { content: "\f107"; }
+.flaticon-009-palm-tree:before { content: "\f108"; }
+.flaticon-010-placeholder:before { content: "\f109"; }
+.flaticon-011-kitesurfing-1:before { content: "\f10a"; }
+.flaticon-012-first-aid-kit:before { content: "\f10b"; }
+.flaticon-013-surfboard-2:before { content: "\f10c"; }
+.flaticon-014-drowning:before { content: "\f10d"; }
+.flaticon-015-boat:before { content: "\f10e"; }
+.flaticon-016-kitesurfing:before { content: "\f10f"; }
+.flaticon-017-shorts:before { content: "\f110"; }
+.flaticon-018-cold-water:before { content: "\f111"; }
+.flaticon-019-van:before { content: "\f112"; }
+.flaticon-020-beer:before { content: "\f113"; }
+.flaticon-021-photo-camera:before { content: "\f114"; }
+.flaticon-022-surfboard-1:before { content: "\f115"; }
+.flaticon-023-windsurfing:before { content: "\f116"; }
+.flaticon-024-warm-water:before { content: "\f117"; }
+.flaticon-025-wave:before { content: "\f118"; }
+.flaticon-026-surfboard:before { content: "\f119"; }
+.flaticon-027-shaka:before { content: "\f11a"; }
+.flaticon-028-flower:before { content: "\f11b"; }
+.flaticon-029-shark:before { content: "\f11c"; }
+.flaticon-030-surfer:before { content: "\f11d"; }
+    
+    $font-Flaticon-001-lifebuoy: "\f100";
+    $font-Flaticon-002-seagull: "\f101";
+    $font-Flaticon-003-flip-flops: "\f102";
+    $font-Flaticon-004-sunglasses: "\f103";
+    $font-Flaticon-005-cloudy: "\f104";
+    $font-Flaticon-006-sunny: "\f105";
+    $font-Flaticon-007-drowning-1: "\f106";
+    $font-Flaticon-008-cocktail: "\f107";
+    $font-Flaticon-009-palm-tree: "\f108";
+    $font-Flaticon-010-placeholder: "\f109";
+    $font-Flaticon-011-kitesurfing-1: "\f10a";
+    $font-Flaticon-012-first-aid-kit: "\f10b";
+    $font-Flaticon-013-surfboard-2: "\f10c";
+    $font-Flaticon-014-drowning: "\f10d";
+    $font-Flaticon-015-boat: "\f10e";
+    $font-Flaticon-016-kitesurfing: "\f10f";
+    $font-Flaticon-017-shorts: "\f110";
+    $font-Flaticon-018-cold-water: "\f111";
+    $font-Flaticon-019-van: "\f112";
+    $font-Flaticon-020-beer: "\f113";
+    $font-Flaticon-021-photo-camera: "\f114";
+    $font-Flaticon-022-surfboard-1: "\f115";
+    $font-Flaticon-023-windsurfing: "\f116";
+    $font-Flaticon-024-warm-water: "\f117";
+    $font-Flaticon-025-wave: "\f118";
+    $font-Flaticon-026-surfboard: "\f119";
+    $font-Flaticon-027-shaka: "\f11a";
+    $font-Flaticon-028-flower: "\f11b";
+    $font-Flaticon-029-shark: "\f11c";
+    $font-Flaticon-030-surfer: "\f11d";
