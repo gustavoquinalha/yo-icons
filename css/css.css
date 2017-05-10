@@ -56,7 +56,7 @@ ul {
 }
 .logo {
   font-size: 2em;
-  text-shadow: 2px 2px 0px #38bc87
+  text-shadow: 2px 2px 0px #3f6fc5
 }
 .mg10 {
   margin: 10px
@@ -81,10 +81,10 @@ ul {
   cursor: pointer;
 }
 .menu-item a:hover {
-  background: #38bc87;
+  background: #3f6fc5;
 }
 .menu-item a.selct {
-  background: #38bc87;
+  background: #3f6fc5;
   font-weight: bold
 }
 .input-search {
@@ -158,18 +158,6 @@ ul {
   border-bottom: 1px solid #ACFF65;
   color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 pre {
     background-color: #222;
     border-radius: 4px;
