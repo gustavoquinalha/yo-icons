@@ -5,7 +5,8 @@
     "class": "flaticon-001-box",
     "path": "img/icons/big-data-and-web-analytics",
     "author": "Freepik",
-    "authorurl": "http://www.flaticon.com/authors/freepik"
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "caixa, box, cloud, nuvem"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "class": "flaticon-002-storage",
     "path": "img/icons/big-data-and-web-analytics",
     "author": "Freepik",
-    "authorurl": "http://www.flaticon.com/authors/freepik"
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "box, caixa, storage, servidor"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "class": "flaticon-003-warehouse",
     "path": "img/icons/big-data-and-web-analytics",
     "author": "Freepik",
-    "authorurl": "http://www.flaticon.com/authors/freepik"
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "home, casa, servidor"
   },
   {
     "id": 4,
@@ -29,6 +32,7 @@
     "class": "flaticon-004-computer",
     "path": "img/icons/big-data-and-web-analytics",
     "author": "Freepik",
-    "authorurl": "http://www.flaticon.com/authors/freepik"
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, servidor, server, storage"
   }
 ]

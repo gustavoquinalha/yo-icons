@@ -65,12 +65,13 @@ ul {
   padding: 10px
 }
 .inpt {
-  height: 50px;
+  height: 30px;
   width: calc(100% - 20px);
   border: none;
   padding-left: 20px;
   background: none;
   text-align: center;
+  outline: none
 }
 .menu-item a {
   margin: 2px;
@@ -94,7 +95,6 @@ ul {
   background: #fff;
   border-radius: 50px;
   width: 30px;
-  height: 30px;
   padding: 10px;
 }
 .icon-link {
@@ -124,7 +124,9 @@ ul {
 }
 .txt {
 }
-
+.over {
+  overflow: hidden;
+}
 
 
 
@@ -156,278 +158,6 @@ ul {
   border-bottom: 1px solid #ACFF65;
   color: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -479,19 +209,9 @@ pre {
 
 
 
-@media only screen and (max-width: 480px) {
-  .some-mobile {
-    display: none
-  }
-  .aparece-mobile {
-    display: block
-  }
-}
 @media only screen and (max-width: 720px) {
-  .some-tablet {
+  .some {
     display: none
   }
-  .aparece-tablet {
-    display: block
-  }
+
 }
