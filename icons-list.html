@@ -4,13 +4,21 @@
       <i class="glyph-icon {{icon.class}}"></i>
     </div>
     <div class="how-icon">
-      <div class="color-primary"><strong>.{{icon.name}}</strong></div>
+      <div class="color-primary"><strong>.{{icon.class}}</strong></div>
     </div>
     <!-- <div class="author-icon">
       <div class="author-name">Author: <a data-file="001-box" href="{{icon.authorurl}}">Freepik</a> </div>
     </div> -->
-    <div class="author-icon">
-      <a href="#/{{icon.id | encodeURI}}">+ info</a>
+    <div class="author-icon container center-center">
+      <div class="mg10">
+        <a href="/{{icon.link}}/{{icon.name}}.svg" download="{{icon.name}}" download>+ download</a>
+      </div>
+      <div class="mg10">
+        <a href="/{{icon.name | encodeURI}}">+ info</a>
+      </div>
+      <div class="mg10">
+        <a href="/{{icon.link}}/{{icon.name}}.svg" target="_blank">+ ver</a>
+      </div>
     </div>
   </div>
 </div>

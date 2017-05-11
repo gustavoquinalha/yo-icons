@@ -1,72 +1,200 @@
 [
   {
     "id": 1,
-    "name": "flaticon-001-box",
+    "name": "001-box",
     "class": "flaticon-001-box",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "caixa, box, cloud, nuvem"
   },
   {
     "id": 2,
-    "name": "flaticon-002-storage",
+    "name": "002-storage",
     "class": "flaticon-002-storage",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "box, caixa, storage, servidor"
   },
   {
     "id": 3,
-    "name": "flaticon-003-warehouse",
+    "name": "003-warehouse",
     "class": "flaticon-003-warehouse",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "home, casa, servidor"
   },
   {
     "id": 4,
-    "name": "flaticon-004-computer",
+    "name": "004-computer",
     "class": "flaticon-004-computer",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "computer, servidor, server, storage"
   },
   {
     "id": 5,
-    "name": "flaticon-005-data-6",
+    "name": "005-data-6",
     "class": "flaticon-005-data-6",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "dados, data"
   },
   {
     "id": 6,
-    "name": "flaticon-006-database-1",
+    "name": "006-database-1",
     "class": "flaticon-006-database-1",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "database, dados"
   },
   {
     "id": 7,
-    "name": "flaticon-007-businessman",
+    "name": "007-businessman",
     "class": "flaticon-007-businessman",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "businessman, business, ideia"
   },
   {
     "id": 8,
-    "name": "flaticon-008-browser",
+    "name": "008-browser",
     "class": "flaticon-008-browser",
     "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 9,
+    "name": "009-layers",
+    "class": "flaticon-009-layers",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 10,
+    "name": "010-privacy",
+    "class": "flaticon-010-privacy",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 11,
+    "name": "011-security",
+    "class": "flaticon-011-security",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 12,
+    "name": "012-visualization",
+    "class": "flaticon-012-visualization",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 13,
+    "name": "013-analytics-3",
+    "class": "flaticon-013-analytics-3",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 14,
+    "name": "014-file-transfer",
+    "class": "flaticon-014-file-transfer",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 15,
+    "name": "015-analytics-2",
+    "class": "flaticon-015-analytics-2",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 16,
+    "name": "016-laptop-2",
+    "class": "flaticon-016-laptop-2",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 17,
+    "name": "017-coding",
+    "class": "flaticon-017-coding",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 18,
+    "name": "018-laptop-1",
+    "class": "flaticon-018-laptop-1",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 19,
+    "name": "019-bar-chart",
+    "class": "flaticon-019-bar-chart",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
+    "author": "Freepik",
+    "authorurl": "http://www.flaticon.com/authors/freepik",
+    "tag": "computer, browser, internet"
+  },
+  {
+    "id": 20,
+    "name": "020-laptop",
+    "class": "flaticon-020-laptop",
+    "path": "img/icons/big-data-and-web-analytics",
+    "link": "img/icons/big-data-and-web-analytics/svg",
     "author": "Freepik",
     "authorurl": "http://www.flaticon.com/authors/freepik",
     "tag": "computer, browser, internet"

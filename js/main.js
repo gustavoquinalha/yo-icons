@@ -19,8 +19,8 @@
     function getData(callback){
       $http({
         method: 'GET',
-        // url: 'icons.json',
-        url: 'http://quinalha.me/yo-icons/icons.json',
+        url: 'icons.json',
+        // url: 'http://quinalha.me/yo-icons/icons.json',
         cache: true
       }).success(callback);
     }
