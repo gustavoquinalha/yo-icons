@@ -5,21 +5,22 @@
         templateUrl: 'icons-list.html',
         controller: 'IconsListCtrl'
       }).
-      when('/:countryName', {
+      when('/:iconName', {
         templateUrl: 'icon-detail.html',
         controller: 'IconsDetailCtrl'
       }).
       otherwise({
         redirectTo: '/'
       });
-      
+
        $locationProvider.html5Mode(true);
   });
   iconApp.factory('icons', function($http){
     function getData(callback){
       $http({
         method: 'GET',
-        url: 'icons.json',
+        // url: 'icons.json',
+        url: 'http://quinalha.me/yo-icons/icons.json',
         cache: true
       }).success(callback);
     }
@@ -41,7 +42,7 @@
     });
   });
   iconApp.controller('IconsDetailCtrl', function ($scope, $routeParams, icons){
-    icons.find($routeParams.countryName, function(icons) {
+    icons.find($routeParams.iconName, function(icons) {
       $scope.icons = icons;
     });
   });
