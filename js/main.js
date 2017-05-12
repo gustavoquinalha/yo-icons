@@ -5,47 +5,61 @@
         templateUrl: 'icons-list.html',
         controller: 'IconsListCtrl'
       }).
-      when('/:iconName', {
+      when('/:countryName', {
         templateUrl: 'icon-detail.html',
         controller: 'IconsDetailCtrl'
       }).
       otherwise({
         redirectTo: '/'
       });
-
+      
        $locationProvider.html5Mode(true);
   });
   iconApp.factory('icons', function($http){
-    function getData(callback){
-      $http({
-        method: 'GET',
-        url: 'icons.json',
-        // url: 'http://quinalha.me/yo-icons/icons.json',
-        cache: true
-      }).success(callback);
-    }
-    return {
-      list: getData,
-      find: function(name, callback){
-        getData(function(data) {
-          var icons = data.filter(function(entry){
-            return entry.name === name;
-          })[0];
-          callback(icons);
-        });
+
+      var icons = {
+          getJson : getJson,
+          data : []
       }
-    };
+      return icons;
+      
+      function getJson() {
+          return $http.get('icons.json')
+                .then(function(res) {
+              return res;
+          })
+      }
+      
   });
-  iconApp.controller('IconsListCtrl', function ($scope, icons){
-    icons.list(function(icons) {
-      $scope.icons = icons;
-    });
-  });
-  iconApp.controller('IconsDetailCtrl', function ($scope, $routeParams, icons){
-    icons.find($routeParams.iconName, function(icons) {
-      $scope.icons = icons;
-    });
-  });
+
+    iconApp.controller('IconsListCtrl', function($scope, icons) {
+        
+        $scope.icons = []; 
+        
+        icons.getJson().then(function(res) {
+            var aux = res.data;
+            for (x in aux) {
+                $scope.icons.push(aux[x]);
+            }
+            console.log(JSON.stringify($scope.icons));
+        })         
+    })
+    
+    iconApp.controller('IconsDetailCtrl', function($scope, $routeParams, icons) {
+        $scope.icons = icons.aux;
+    })
+
+//  iconApp.controller('IconsListCtrl', function ($scope, icons){
+//    icons.list(function(icons) {
+//      $scope.icons = icons.icon;
+//        console.log(JSON.stringify($scope.icons));
+//    });
+//  });
+//  iconApp.controller('IconsDetailCtrl', function ($scope, $routeParams, icons){
+//    icons.find($routeParams.countryName, function(icons) {
+//      $scope.icons = icons.icon;
+//    });
+//  });
   iconApp.filter('encodeURI', function(){
     return window.encodeURI;
   });
